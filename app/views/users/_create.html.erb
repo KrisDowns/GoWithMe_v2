@@ -1,0 +1,38 @@
+<!-- <h1>Sign up</h1> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<%= stylesheet_link_tag "/app/stylesheets/signup.css" %>
+
+<div class="form">
+  <%= form_for(@user) do |f| %>
+
+    <div class="signup" >
+      <%= f.label :name, :class =>"cust-label"%>
+      <%= f.text_field :name, :class =>"cust-box", :class =>"form-control" %>
+    </div>
+
+    <div class="signup" >
+      <%= f.label :email, :class =>"cust-label" %>
+      <%= f.email_field :email, :class =>"cust-box", :class =>"form-control"%>
+    </div>
+
+    <div class="signup" >
+      <%= f.label :password, :class =>"cust-label" %>
+      <%= f.password_field :password, :class =>"cust-box", :class =>"form-control"%>
+    </div>
+
+    <div class="signup" >
+      <%= f.label :confirmation, :class =>"cust-label"%>
+      <%= f.password_field :password_confirmation, :class =>"cust-box", :class =>"form-control" %>
+    </div>
+</div>
+
+    <div >
+      <%= f.submit "Sign Up", class: "create-account", class: "sign-up-submit"%>
+    </div>
+
+  <% end %>
+
+
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

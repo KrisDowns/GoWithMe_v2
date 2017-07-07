@@ -1,0 +1,137 @@
+// logo and background
+#logo{
+  display: block;
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  background: rgba(0, 0, 0, 0);
+  margin-top: 5vh;
+}
+
+#log-in-back{
+  background-image:url(https://media.giphy.com/media/4XeLHhzQy6YyA/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+  overflow: hidden;
+}
+
+#sign-up-back{
+  background-image:url(https://media.giphy.com/media/3oEduXeT0j1Bl5uWHK/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+  overflow: hidden;
+}
+// logo and background
+
+// Buttons
+#log-in{
+  background-color: #f67f00;
+}
+
+#sign-up{
+  color: #f67f00;
+}
+
+#fb-btn{
+  margin-top: 5vh;
+  height: 6vh;
+  background-color: #3b5998;
+  width: 100vw;
+  max-width: 400px;
+  position:absolute;
+  bottom: 0vh;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  text-align: center;
+}
+
+#fb-text{
+  color: white!important;
+  font-size: 2vh;
+  padding-top: 2vh;
+
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before{
+  color: white!important;
+  font-size: 4vh;
+  margin-right: 4vw;
+  margin-left: -5vw;
+  vertical-align:middle;
+  text-align: center;
+}
+
+.fa{
+  padding-top: 1vh;
+
+}
+
+
+#login-btn-new{
+  margin-top: .5vh;
+  height: 6vh;
+  background-color: #f67f00;
+  width: 100vw;
+  text-align: center;
+  max-width: 400px;
+  position:absolute;
+  bottom: 12vh;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+}
+
+#login-text{
+  text-align: center;
+  color: white;
+  font-size: 2vh;
+  padding: 1.75vh;
+  margin-left: 0;
+}
+
+#sign-btn-new{
+  margin-top: .5vh;
+  height: 6vh;
+  background-color: white;
+  width: 100vw;
+  text-align: center;
+  max-width: 400px;
+  position:absolute;
+  bottom: 5vh;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+}
+
+#sign-text{
+  text-align: center;
+  color: #f67f00;
+  font-size: 2vh;
+  padding: 1.75vh;
+  margin-left: 0;
+}
+
+#fb-sign{
+  color: white;
+  size: 3vh;
+  height: 6vh;
+  text-align: center;
+  padding: 1.75vh;
+  background-color: #3b5998;
+  width: 100vw;
+  max-width: 400px;
+  position:absolute;
+  bottom: 19vh;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+}
+
+#sign_out{
+  color:white;
+}

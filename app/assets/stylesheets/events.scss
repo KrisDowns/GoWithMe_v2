@@ -1,0 +1,195 @@
+//nav
+
+#nav-div{
+  height: 8.9em;
+  background-color: #f67f00;
+  margin-top: -1em;
+  margin-left: -1em;
+  margin-right: -2em;
+  position: fixed;
+  z-index: 1;
+  width: 1010px;
+}
+
+#nav-text{
+  display: inline-block;
+  font-size: 5em;
+  color: white;
+  font-family: 'BioRhyme', serif;
+  margin-left: 3.4em;
+  padding-top: 20px;
+}
+
+.btn-default{
+  float: right;
+  position: fixed;
+  z-index: 1;
+  margin-left: 795px;
+  margin-top: 125px;
+  border: none;
+}
+
+//nav
+.form-control{
+  font-size: 3em;
+  width: 80.2% !important;
+  margin-left: -.15em;
+  position: fixed;
+  z-index: 1;
+  margin-top: 126px;
+  border-style: none;
+}
+
+.input-group-btn{
+  font-size: 1em;
+}
+
+.btn-basic{
+  font-size: 3em;
+}
+
+#search-btn{
+  width: 4.7em;
+  text-align: center;
+  font-size: 3em;
+  height: 3.05em;
+  background-color: white;
+  color: #757575;
+  margin-right: -.28em;
+  margin-top: 125px;
+
+}
+
+// #login-btn{
+//   width: 4.5em;
+//   text-align: center;
+//   font-size: 3em;
+//   height: 3em;
+// }
+//search bar
+
+//Events
+.card {
+    width: 100vw;
+    word-break: break-all;
+    font-size: 3em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight:bold;
+    font-family: 'BioRhyme', serif;
+    text-shadow: 4px 4px black;
+    color: #f67f00;
+}
+
+#event {
+    width: 100vw;
+    word-break: break-all;
+    font-size: 3em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight:bold;
+    font-family: 'BioRhyme', serif;
+    color: white;
+}
+
+img{
+  width:102vw;
+  color: white;
+  font: bold 12px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  margin-left: -.5em;
+}
+
+
+#event_name{
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  top: -13rem;
+  width: 101;
+  height: 12rem;
+  margin-left: -.15em;
+  margin-right: -.25em;
+  overflow:hidden;
+}
+
+#event_name_wrapper{
+  height:0;
+}
+
+#spacer{
+  height: 17em;
+}
+//Events
+
+//Errors
+h4{
+  font-family: 'BioRhyme', serif;
+  font-weight: bold;
+  color: white;
+  font-size: 6em;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center
+}
+
+#error-back{
+  background-image:url(https://media.giphy.com/media/1RkDDoIVs3ntm/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: 102% 102%;
+  margin-left: -2em;
+  margin-right: -2em;
+  margin-top: -8em;
+}
+
+#comm-text {
+  height: 4em;
+  width: 50%;
+
+}
+
+#comm-body {
+  border-color: #f67f00;
+  border-style: solid;
+  border-width: 1px;
+  height: 5em;
+  width: 100vw;
+  font-size: 1.5em;
+  margin-left: -.27em;
+  margin-right: 0;
+}
+
+#comment-name {
+  position: absolute;
+  bottom: 100px;
+}
+
+#scrollable-content {
+  height: 40em;
+}
+
+#lg-btn{
+  width: 100vw;
+  margin-left: -.15em;
+  font-size: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+  background-color: #f67f00;
+
+}
+
+#center-add{
+  text-align: center;
+}
+
+#event-info-text{
+  width: 100%;
+  text-align: justify;
+}
+
+#back-btn{
+  margin-left: 45%;
+  margin-top: 1em;
+}
